@@ -7,5 +7,5 @@ import (
 
 //Router - default logic router
 func Router(e *echo.Echo) {
-	e.GET("/:service_name", controller.GetConf)
+	e.POST("/", controller.SendConf)
 }

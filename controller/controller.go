@@ -7,20 +7,17 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/StanDenisov/utils/confstruct"
+	"github.com/StanDenisov/fq_utils/confstruct"
 
 	"github.com/labstack/echo"
 )
 
 //GetConf - return conf by app_name
-func GetConf(c echo.Context) error {
+func SendConf(c echo.Context) error {
 	conf := confstruct.ConfStruct{}
-	serviceName := c.Param("service_name")
-	if serviceName == "favicon.ico" {
-		return c.String(http.StatusOK, "ok")
-	}
+	serviceName := c.Bind(&conf)
 	fmt.Println("name is :", serviceName)
-	appPath := fmt.Sprintf("configurations/%s.json", serviceName)
+	appPath := fmt.Sprintf("configurations/%s_%s.json", conf.AppName, conf.AppMode)
 	jsonFile, err := os.Open(appPath)
 	if err != nil {
 		fmt.Println(err)

@@ -1,6 +1,10 @@
+github.com/StanDenisov/fq_utils v1.0.1/go.mod h1:rGh6j69tZgqaI1E2D/m5nzPn8L9esg/AznienUyNJ9M=
+github.com/StanDenisov/fq_utils v1.0.2 h1:zV6sGpx5MjtLifvSscvuYg+AaLQeU16Xh+17CyiAfEw=
+github.com/StanDenisov/fq_utils v1.0.2/go.mod h1:rGh6j69tZgqaI1E2D/m5nzPn8L9esg/AznienUyNJ9M=
 github.com/StanDenisov/utils v0.0.0-20200326104258-e24313826026 h1:R1jeKZbNsqSk6Pk9H/N6l/hc0bh47K3dWjcFc4OzhWw=
 github.com/StanDenisov/utils v0.0.0-20200326104258-e24313826026/go.mod h1:1HndCV5O4nzKrNmHTYRJVsqJNy+loQBgSyfaL/86pC8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/franela/goblin v0.0.0-20210519012713-85d372ac71e2/go.mod h1:VzmDKDJVZI3aJmnRI9VjAn9nJ8qPPsN1fqzr9dqInIo=
 github.com/labstack/echo v3.3.10+incompatible h1:pGRcYk231ExFAyoAjAfD85kQzRJCRI8bbnE7CX5OEgg=
 github.com/labstack/echo v3.3.10+incompatible/go.mod h1:0INS7j/VjnFxD4E2wkz67b8cVwCLbBmJyDaka6Cmk1s=
 github.com/labstack/gommon v0.3.0 h1:JEeO0bvc78PKdyHxloTKiF8BD5iGrH8T6MSeGvSgob0=
